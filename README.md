@@ -1,5 +1,6 @@
 # 📸 Instagram Analytics & Predictive Engagement Modeling
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MU30Q_FT3psXgr6fAwotEek2c_5j_ged?usp=sharing)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
 [![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458.svg?logo=pandas&logoColor=white)](https://pandas.pydata.org/)
 [![Scikit-Learn](https://img.shields.io/badge/scikit--learn-Machine%20Learning-F7931E.svg?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
@@ -165,13 +166,22 @@ The project generates diagnostic visualizations using `matplotlib`:
 
 ## 🚀 Quickstart Guide
 
-### 1. Clone the Repository
+### ⚡ 1-Click Interactive Cloud Run (No Local Setup)
+You can directly run, experiment with, and execute the entire notebook in Google Colab:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MU30Q_FT3psXgr6fAwotEek2c_5j_ged?usp=sharing)
+
+---
+
+### Local Installation & Execution
+
+#### 1. Clone the Repository
 ```bash
 git clone https://github.com/your-username/DataScience-Instagram-Analytics.git
 cd DataScience-Instagram-Analytics
 ```
 
-### 2. Create and Activate a Virtual Environment
+#### 2. Create and Activate a Virtual Environment
 ```bash
 # Windows
 python -m venv venv
@@ -182,13 +192,13 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-### 3. Install Dependencies
+#### 3. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
-*(If `requirements.txt` is not yet created, run: `pip install pandas numpy scikit-learn matplotlib seaborn jupyter reportlab`)*
+*(Dependencies: `pandas`, `numpy`, `scikit-learn`, `matplotlib`, `seaborn`, `jupyter`, `reportlab`)*
 
-### 4. Run the Analysis
+#### 4. Run the Analysis
 Launch the interactive Jupyter notebook:
 ```bash
 jupyter notebook instagram-analysis.ipynb
