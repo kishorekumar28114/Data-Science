@@ -101,7 +101,7 @@ To transform transactional rows into predictive features, the pipeline enforces 
    - *Activity Features (Outbound)*: Actions initiated by a user (liking/commenting on others) &rarr; feeds the **Classifier**.
    - *Creator Features (Inbound)*: Reactions earned on user-owned photos &rarr; feeds the **Regressors**.
 3. **Division-by-Zero Guard**:
-   $$\text{likes\_per\_post} = \frac{\text{likes}}{\text{posts} + 1}, \quad \text{comments\_per\_post} = \frac{\text{comments}}{\text{posts} + 1}$$
+   $$\text{likes\per\post} = \frac{\text{likes}}{\text{posts} + 1}, \quad \text{comments\per\post} = \frac{\text{comments}}{\text{posts} + 1}$$
 4. **Outlier Mitigation**:
    - Applies independent 99th-percentile trimming on interaction rates to prevent skew from viral anomalies.
 
